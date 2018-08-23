@@ -10,10 +10,7 @@ Hey you, are you fine ? Ok, take popcors and let's introduce myself !
 
 This app runs for postgrrrrrrrrrrrrr for sql.
 
-You just need to
-
-```bundle install
-```
+You just need to ```bundle install```
 Then ```rails db:create```,
 and finally ```rails db:create ```
 
