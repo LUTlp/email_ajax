@@ -1,24 +1,28 @@
-# README
+# Rails Ajax
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hey you, are you fine ? Ok, take popcors and let's introduce myself !
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+.you can see the landing page here : https://mailviewerlutlp.herokuapp.com/
 
-* System dependencies
+### Prerequisites
 
-* Configuration
+This app runs for postgrrrrrrrrrrrrr for sql.
 
-* Database creation
+You just need to
 
-* Database initialization
+```bundle install
+```
+Then ```rails db:create```,
+and finally ```rails db:create ```
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Tests
 
-* Deployment instructions
+In France, we have a sentence for this present situation... "cherche pas, tu peux pas teste !"
 
-* ...
+
+## Contributing and Authors
+
+Perrine and I, LUTlp, aka R.A.P.

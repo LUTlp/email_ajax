@@ -1,5 +1,5 @@
 class EmailController < ApplicationController
-
+  before_action :set_email, only: [:show, :destroy]
 
 
   def index
@@ -18,9 +18,9 @@ class EmailController < ApplicationController
   end
 
   def show_mon_sesame
-    @email.show(:body)
+     @emails = Email.find(params[:id])
     respond_to do |format|
-      format.html
+      format.html  { redirect_to root_path }
       format.js
   end
 
@@ -39,7 +39,7 @@ class EmailController < ApplicationController
 
 
 
-    def set_emails
+    def set_email
        @email = Email.find(params[:id])
     end
 
